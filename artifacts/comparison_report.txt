@@ -1,0 +1,3 @@
+Model Comparison:
+InceptionV3: 0.9552845358848572
+EfficientNetB0: 0.3252032399177551
