@@ -9,7 +9,7 @@ st.title("🧠 Brain Tumor MRI Classifier")
 st.write("Upload a brain MRI image (JPG or PNG), and the model will predict the tumor type.")
 
 # Load available models from the 'model1' folder
-model_dir = 'models1'
+model_dir = 'Models1'
 model_files = [f for f in os.listdir(model_dir) if f.endswith('.keras')]
 model_options = {f.replace('.keras', ''): os.path.join(model_dir, f) for f in model_files}
 
